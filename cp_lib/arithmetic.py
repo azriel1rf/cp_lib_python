@@ -9,11 +9,11 @@ def permutation(n, k, mod=DEFAULT_MOD):
 
 
 def factorial(n, mod=DEFAULT_MOD):
-    return permutation(n, n)
+    return permutation(n, n, mod)
 
 
 def combination(n, k, mod=DEFAULT_MOD):
     k = min(k, n - k)
-    numerator = permutation(n, k)
-    denominator = factorial(k)
-    return numerator * pow(denominator, mod - 2, mod)
+    numerator = permutation(n, k, mod)
+    denominator = factorial(k, mod)
+    return (numerator * pow(denominator, mod - 2, mod)) % mod
