@@ -1,4 +1,4 @@
-from cp_lib.mod_arithmetic import permutation, factorial, combination
+from tiny_algos.mod_arithmetic import permutation, factorial, combination
 
 DEFAULT_MOD = 10 ** 9 + 7
 

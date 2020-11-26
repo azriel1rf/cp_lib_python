@@ -1,5 +1,5 @@
-from cp_lib.multiset import MultiSet
-from cp_lib.minmultiset import MinMultiSet, MaxMultiSet
+from tiny_algos.multiset import MultiSet
+from tiny_algos.minmultiset import MinMultiSet, MaxMultiSet
 from copy import deepcopy
 
 

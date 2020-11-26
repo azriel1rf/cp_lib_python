@@ -1,7 +1,7 @@
 DEFAULT_MOD = 10 ** 9 + 7
 
 
-def permutation(n, k, mod=DEFAULT_MOD):
+def mod_permutation(n, k, mod=DEFAULT_MOD):
     if k >= mod:
         return 0
     ret = 1
@@ -10,14 +10,14 @@ def permutation(n, k, mod=DEFAULT_MOD):
     return ret
 
 
-def factorial(n, mod=DEFAULT_MOD):
+def mod_factorial(n, mod=DEFAULT_MOD):
     if n >= mod:
         return 0
     else:
-        return permutation(n, n, mod)
+        return mod_permutation(n, n, mod)
 
 
-def combination(n, k, mod=DEFAULT_MOD):
+def mod_combination(n, k, mod=DEFAULT_MOD):
     k = min(k, n - k)
     mod_power = 0
     numerator = 1
