@@ -1,10 +1,10 @@
 # TinyAlgosPython: compact modules for Data Structures and Algorithms
 
-✔️Time complexity is reduced for specefic purposes.
+✔️Time complexity is reduced for specific purposes.
 
 ✔Modules are tested.
 
-✔All the classes and modules are cocluded in one file. (except for tests)
+✔All the classes and modules are concluded in one file. (except for tests)
 
 ---
 ## Supported Data Structures / Algorithms

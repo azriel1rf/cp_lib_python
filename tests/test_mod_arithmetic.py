@@ -43,7 +43,7 @@ def test_combination():
 
     mod = 2
     assert combination(5, 3, mod) == ((5 * 4 * 3) // (3 * 2 * 1)) % mod
-    # denominator might be devided by mod
+    # denominator might be divided by mod
     assert combination(7, 2, mod) == ((7 * 6) // (2 * 1)) % mod
     mod = 7
     assert combination(10 ** 10, 1, mod) == (10 ** 10) % mod
