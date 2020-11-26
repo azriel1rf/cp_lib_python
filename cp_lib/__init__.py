@@ -1,4 +1,4 @@
-from .arithmetic import permutation, factorial, combination
+from .mod_arithmetic import permutation, factorial, combination
 from .multiset import MultiSet
 from .minmultiset import MinMultiSet, MaxMultiSet
 
