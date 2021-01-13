@@ -27,13 +27,13 @@ def mod_combination(n, k, mod=DEFAULT_MOD):
         while i % mod == 0:
             i //= mod
             mod_power += 1
-        numerator *= i
+        numerator = (numerator * i) % mod
 
     for i in range(k, 0, -1):
         while i % mod == 0:
             i //= mod
             mod_power -= 1
-        denominator *= i
+        denominator = (denominator * i) % mod
 
     if mod_power > 0:
         return 0
