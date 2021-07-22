@@ -15,9 +15,7 @@ class MinMultiSet:
 
     def sanitize(self):
         while (
-            self._list
-            and self._remove_list
-            and self._list[0] == self._remove_list[0]
+            self._list and self._remove_list and self._list[0] == self._remove_list[0]
         ):
             heappop(self._list)
             heappop(self._remove_list)
