@@ -1,5 +1,10 @@
 from heapq import heapify, heappop, heappush
 
+PINF = 9223372036854775807  # 2 ** 63 - 1
+NINF = -PINF
+MIN_DEFAULT = PINF
+MAX_DEFAULT = NINF
+
 
 class MinMultiSet:
     def __init__(self, iterable=None, remove_iterable=None):
@@ -37,7 +42,10 @@ class MinMultiSet:
     @property
     def min(self):
         self.sanitize()
-        return self._list[0]
+        if self._list:
+            return self._list[0]
+        else:
+            return MIN_DEFAULT
 
     def __len__(self):
         return len(self._list) - len(self._remove_list)
@@ -52,8 +60,8 @@ class MinMultiSet:
 class MaxMultiSet:
     def __init__(self, iterable=None, remove_iterable=None, minms=None):
         if minms is None:
-            inv_iterable = None
-            inv_remove_iterable = None
+            inv_iterable = []
+            inv_remove_iterable = []
             if iterable:
                 inv_iterable = (-v for v in iterable)
             if remove_iterable:
