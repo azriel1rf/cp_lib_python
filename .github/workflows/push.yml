@@ -54,7 +54,10 @@ jobs:
         run: |
           poetry config virtualenvs.in-project true
           poetry install --no-interaction
+          poetry show
       - name: Run tests
-        run: poetry run pytest -v
+        run: poetry run coverage run -m pytest
       - name: Build
         run: poetry build
+      - name: Coveralls
+        uses: AndreMiras/coveralls-python-action@develop
