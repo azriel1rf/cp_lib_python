@@ -7,6 +7,20 @@
 ✔All the classes and modules are concluded in one file. (except for tests)
 
 ---
+## Installation
+### pip
+```shell
+pip install tiny-algos
+```
+### with Poetry
+- install from source
+    ```shell
+    poetry install
+    ```
+- add to your environment
+    ```shell
+    poetry add tiny-algos
+    ```
 ## Supported Data Structures / Algorithms
 ### Collections
 - multiset.py
