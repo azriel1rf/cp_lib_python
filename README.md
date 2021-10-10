@@ -18,7 +18,7 @@
 ```shell
 pip install tiny-algos
 ```
-### with Poetry
+### Poetry
 - install from source
     ```shell
     poetry install
