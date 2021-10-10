@@ -3,6 +3,7 @@
 [![PyPI version](https://badge.fury.io/py/tiny-algos.svg)](https://badge.fury.io/py/tiny-algos)
 [![PyPI downloads](https://img.shields.io/pypi/dm/tiny-algos)](https://shields.io/category/downloads)
 [![Coverage Status](https://coveralls.io/repos/github/azriel1rf/tiny_algos_python/badge.svg?branch=main)](https://coveralls.io/github/azriel1rf/tiny_algos_python?branch=main)
+[![Code Quality](https://www.code-inspector.com/project/29362/score/svg)](https://frontend.code-inspector.com/public/project/29362/tiny_algos_python/dashboard)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/azriel1rf/tiny_algos_python/blob/main/LICENSE.md)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
