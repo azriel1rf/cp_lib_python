@@ -1,4 +1,5 @@
 # TinyAlgosPython: compact modules for Data Structures and Algorithms
+[![Coverage Status](https://coveralls.io/repos/github/azriel1rf/tiny_algos_python/badge.svg?branch=main)](https://coveralls.io/github/azriel1rf/tiny_algos_python?branch=main)
 
 ✔️Time complexity is reduced for specific purposes.
 
